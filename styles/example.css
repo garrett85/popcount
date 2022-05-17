@@ -1,0 +1,72 @@
+body { background-color: lightgray; }
+
+h1 { color: blue; text-align: center; }
+
+table { table-layout: fixed; }
+
+td
+{
+  background-color: white;
+  border: 1px solid black;
+  font-family: 'iskoola pota';
+}
+
+.maintable
+{
+  position: absolute;
+  top: 75px;
+  width: 25%;
+}
+
+#courtstable
+{
+  border: 1px solid black;
+  left: 0%;
+  background-color: yellow;
+}
+
+#medicaltable
+{
+  border: 1px solid black;
+  left: 25%;
+  background-color: green;
+}
+
+#punativetable
+{
+  border: 1px solid black;
+  right: 25%;
+  background-color: red;
+}
+
+#temptable
+{
+  border: 1px solid black;
+  right: 0%;
+  background-color: grey;
+}
+ 
+.edit { position: static; float: bottom; float: right; }
+
+.dates { positon: fixed; float: bottom; float: left; }
+
+.rightpadding { margin-right: 4em; }
+
+#courtscount   { position: absolute; top: 55px; left:  0px; width: 25%; }
+#medicalcount  { position: absolute; top: 55px; left:  25%; width: 25%; }
+#punitivecount { position: absolute; top: 55px; right: 25%; width: 25%; }
+#tempscount    { position: absolute; top: 55px; right: 0px; width: 25%; }
+
+.center { position: relative; text-align: center; }
+
+#login
+{
+  position: absolute;
+  top:   1%;
+  right: 1%;
+}
+
+.red
+{
+  color: red;
+}

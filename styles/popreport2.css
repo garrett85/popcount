@@ -1,0 +1,96 @@
+body { background-color: lightgray; }
+
+h1 { color: blue; text-align: center; }
+
+table { table-layout: fixed; }
+
+td
+{
+  background-color: white;
+  border: 1px solid black;
+  font-family: 'iskoola pota';
+}
+
+.maintable
+{
+  position: absolute;
+  top: 100px;
+  width: 25%;
+}
+
+#courtstable
+{
+  border: 1px solid black;
+  left: 0%;
+  background-color: yellow;
+}
+
+#medicaltable
+{
+  border: 1px solid black;
+  left: 25%;
+  background-color: green;
+}
+
+#punativetable
+{
+  border: 1px solid black;
+  right: 25%;
+  background-color: red;
+}
+
+#temptable
+{
+  border: 1px solid black;
+  right: 0%;
+  background-color: grey;
+}
+
+#loginform, #userlogout
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.inmatecell { width: 100%; }
+
+,inmatecell td { width: 100%; }
+
+#name { text-align: left; }
+#number { text-align: center; }
+#facility { text-align: right; }
+#edit { text-align: right; }
+
+.inmatecell tr td { border-width: 0; }
+
+.name { text-align: left; vertical-align: top; }
+ 
+/*.edit { position: relative; float: bottom; float: right; }*/
+
+.dates { position: relative; float: bottom; float: left; }
+
+.facility { text-align: right; vertical-align: top; color: red; }
+
+.number { position: relative; float: top; float: center; color: red; }
+
+.rightpadding { margin-right: 4em; }
+
+#courtscount   { position: absolute; top: 55px; left:  0px; width: 25%; }
+#medicalcount  { position: absolute; top: 55px; left:  25%; width: 25%; }
+#punitivecount { position: absolute; top: 55px; right: 25%; width: 25%; }
+#tempscount    { position: absolute; top: 55px; right: 0px; width: 25%; }
+
+.center { position: relative; text-align: center; }
+
+#login
+{
+  position: absolute;
+  top:   1%;
+  right: 1%;
+}
+
+.red
+{
+  color: red;
+}
